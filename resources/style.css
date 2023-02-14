@@ -28,6 +28,13 @@ header {
     padding: 0px 20px;
 }
 
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #93BFCF;
+}
 
 .skills_list svg{
     width: 50px;
