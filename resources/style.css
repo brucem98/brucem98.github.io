@@ -29,14 +29,26 @@ header {
 }
 
 .nav_links li a {
-    transition: all 0.3 ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
     color: #93BFCF;
 }
 
+button {
+    padding: 9px 25px;
+    background-color: rgba(96, 150, 180, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(96, 150, 180, 0.8);
+}
 .skills_list svg{
     width: 50px;
     color: grey;
-} 
+}
