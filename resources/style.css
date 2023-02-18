@@ -29,6 +29,10 @@ h3 {
     margin-bottom: 0.75rem;
 }
 
+p {
+    font-size: 1.25rem;
+}
+
 /* Header & Nav Section */
 
 header {
@@ -88,7 +92,6 @@ button:active {
     gap: 0.85rem;
 }
 
-
 .about_me_container img {
     width: 250px;
     flex-shrink: 0;
@@ -132,4 +135,19 @@ button:active {
 footer {
     text-align: center;
     padding-bottom: 1rem;
+}
+
+/* Contact Page */ 
+
+.profile_list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.profile_list svg {
+    width: 30px;
+    color: grey;
+    flex-wrap: wrap;
 }
