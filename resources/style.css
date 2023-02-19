@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +14,8 @@ body {
 }
 
 li, a, button {
-    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25rem;
     color: #323232;
     text-decoration: none;
 }
@@ -21,16 +24,28 @@ header, section {
     margin-bottom: 2rem;
 }
 
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+}
+
 h2 {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.50rem;
     margin-bottom: 0.75rem;
 }
 
 p {
-    font-size: 1.25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
 }
 
 /* Header & Nav Section */
@@ -93,7 +108,8 @@ button:active {
 }
 
 .about_me_container img {
-    width: 250px;
+    width: 325px;
+    height: 80%;
     flex-shrink: 0;
     border-radius: 10px;
 }
@@ -123,9 +139,12 @@ button:active {
     justify-content: space-between;
 }
 
+.skills_list {
+    margin-top: 2rem;
+}
 
 .skills_list svg {
-    width: 30px;
+    width: 35px;
     color: grey;
     flex-wrap: wrap;
 }
@@ -133,6 +152,8 @@ button:active {
 /* Footer Section */
 
 footer {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25rem;
     text-align: center;
     padding-bottom: 1rem;
 }
