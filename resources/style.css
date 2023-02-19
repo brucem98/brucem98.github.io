@@ -122,14 +122,21 @@ button:active {
     overflow: hidden;
 }  */
 
-.project_img_container img {
-    width: 50%;
-    /* display: block; */ 
+.target_element {
+    cursor: pointer;
 }
 
-.project_description {
-    margin: 1rem 0;
+.target_element img, .target_element p {
+    display: none;
 }
+
+.target_element img {
+    width: 50%;
+}
+
+.target_element p {
+    margin: 1rem 0;
+} 
 
 
 /* Skills Section */
