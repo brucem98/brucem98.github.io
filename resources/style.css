@@ -179,3 +179,28 @@ footer {
     color: grey;
     flex-wrap: wrap;
 }
+
+.profile_list svg:hover {
+    color: #6096B4;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1400px) {
+    .about_me_container img {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .nav_links li:not(:last-child) {
+        display: none;
+    }
+    
+    .about_me_container {
+        flex-direction: column-reverse;
+    }
+
+    .about_me_container img {
+        width: 250px;
+    }
+}
