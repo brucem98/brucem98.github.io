@@ -126,12 +126,23 @@ button:active {
     cursor: pointer;
 }
 
-.target_element img, .target_element p {
+.target_element img, .target_element p, .target_element a {
     display: none;
 }
 
+.target_element a {
+    color:rgba(96, 150, 180, 0.8);
+    margin-top: 0.5rem;
+}
+
+.target_element a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+
 .target_element img {
-    width: 50%;
+    width: 75%;
 }
 
 .target_element p {
