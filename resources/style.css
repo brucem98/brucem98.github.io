@@ -122,7 +122,7 @@ button:active {
     overflow: hidden;
 }  */
 
-.target_element {
+.target_element a{
     cursor: pointer;
 }
 
@@ -151,11 +151,14 @@ button:active {
 
 .target_element img {
     width: 75%;
+    margin-top: 2rem;
 }
 
 .target_element p {
-    margin: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 } 
+
 
 
 /* Skills Section */
