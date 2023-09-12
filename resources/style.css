@@ -126,8 +126,16 @@ button:active {
     cursor: pointer;
 }
 
-.target_element img, .target_element p, .target_element a {
+.target_element h3 {
+    display: inline;
+}
+
+/* .target_element > * {
     display: none;
+} */
+
+.target_element > * {
+    display: block;
 }
 
 .target_element a {
